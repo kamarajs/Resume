@@ -30,24 +30,14 @@
           box-shadow: 5px 5px 15px  grey;
           text-align:justify;
       }
-      td{
-        width:device-width;
-          height: device-height;
-          padding:10px;
-          border: 1px solid;
-          font-size:small
-          text-align:justify;
-      }
+      
       .img {
         width:device-width;
           height: device-height;
           width:100%;
           text-align:justify;
       }
-      table {
-          float:none;
-          text-align:justify;
-      }
+    
       .signature{
           box-align:right;
       }
@@ -63,11 +53,11 @@
     <body>
       <div class="container-fluid">
           <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-4 mb-4">
                   <div class="img">
                     <img class="img" src="./Icons/Profile/meblack.jpg">
                   </div>
-                <div class="Box1">
+                <div class="Box1 responsive">
                     <h3>Kamaraj S</h3>
                     <h6>S.K.complex, Attur Main Road, Minnampalli, Salem - 636106</h6>
                     <h6>8682812492, 9994494814</h6>
@@ -136,13 +126,16 @@
                         <h4><img src="./Icons/education.png" class="images" >Education Details</h4>
                     </div>
                     <div class="inner-details">
-                        <table>
-                           <tr>
-                               <td><b>Academy Name</b></td>
-                               <td><b>Degree</b></td>
-                               <td><b>Percentage</b></td>
-                               <td><b>year of study</b></td>
+                        <table class="table table-bordered table-responsive">
+                          <thead class="thead-light"> 
+                            <tr>
+                               <th scope="col"><b>Academy Name</b></th>
+                                <th scope="col"><b>Degree</b></th>
+                                    <th scope="col"><b>Percentage</b></th>
+                                        <th scope="col"><b>year of study</b></th>
                            </tr>
+                        </thead>
+                        <tbody>
                            <tr>
                                <td>Bannari Amman Institute of Technology</td>
                                <td>B.E - CSE</td>
@@ -161,6 +154,7 @@
                             <td>87%</td>
                             <td>2014 - 2015</td>
                         </tr>
+                    </tbody>
                         </table>
                     </div>
                 </div>
