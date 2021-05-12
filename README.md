@@ -3,3 +3,7 @@
 this is the hosted hyperlink have look before seeing the coding part.
 
 https://kamarajs.github.io/Resume/
+
+use this link if the above does't work
+
+https://resume-kamarajs.netlify.app/
